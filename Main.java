@@ -108,15 +108,7 @@ public class Main {
         }
         if (three + six + nine == ('O'+ 'O' + 'O')) {
             owins = true;
-        }
-        /*if (input.indexOf(' ') == -1) {
-            System.out.println("Draw");
-        }
-        if (input.indexOf('_') != -1 && Math.abs(xCounter - oCounter) < 2) {
-            System.out.println("Game not finished");
-        }
-
-         */
+        }       
         if (xwins == true && owins == true) {
             System.out.println("Impossible");
         }
